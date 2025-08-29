@@ -1,0 +1,37 @@
+[1.304s] Invoking command in '/home/saulo/ros2_servidor_ws/src/pacote5_transcritor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saulo/ros2_servidor_ws/build/pacote5_transcritor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote5_transcritor build --build-base /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build install --record /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/install.log --single-version-externally-managed install_data
+[1.533s] running egg_info
+[1.533s] creating ../../build/pacote5_transcritor/pacote5_transcritor.egg-info
+[1.550s] writing ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/PKG-INFO
+[1.551s] writing dependency_links to ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/dependency_links.txt
+[1.551s] writing entry points to ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/entry_points.txt
+[1.551s] writing requirements to ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/requires.txt
+[1.551s] writing top-level names to ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/top_level.txt
+[1.551s] writing manifest file '../../build/pacote5_transcritor/pacote5_transcritor.egg-info/SOURCES.txt'
+[1.586s] reading manifest file '../../build/pacote5_transcritor/pacote5_transcritor.egg-info/SOURCES.txt'
+[1.586s] writing manifest file '../../build/pacote5_transcritor/pacote5_transcritor.egg-info/SOURCES.txt'
+[1.587s] running build
+[1.587s] running build_py
+[1.587s] creating /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build
+[1.587s] creating /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib
+[1.587s] creating /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor
+[1.588s] copying pacote5_transcritor/google_transcriber_node.py -> /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor
+[1.588s] copying pacote5_transcritor/__init__.py -> /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor
+[1.588s] running install
+[1.592s] running install_lib
+[1.612s] creating /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor
+[1.612s] copying /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor/google_transcriber_node.py -> /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor
+[1.612s] copying /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor/__init__.py -> /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor
+[1.612s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor/google_transcriber_node.py to google_transcriber_node.cpython-312.pyc
+[1.613s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor/__init__.py to __init__.cpython-312.pyc
+[1.613s] running install_data
+[1.613s] creating /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/ament_index
+[1.613s] creating /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/ament_index/resource_index
+[1.614s] creating /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/ament_index/resource_index/packages
+[1.614s] copying resource/pacote5_transcritor -> /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/ament_index/resource_index/packages
+[1.614s] copying package.xml -> /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/pacote5_transcritor
+[1.614s] running install_egg_info
+[1.633s] Copying ../../build/pacote5_transcritor/pacote5_transcritor.egg-info to /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor-0.0.0-py3.12.egg-info
+[1.633s] running install_scripts
+[1.750s] Installing transcriber_node script to /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/pacote5_transcritor
+[1.750s] writing list of installed files to '/home/saulo/ros2_servidor_ws/build/pacote5_transcritor/install.log'
+[1.782s] Invoked command in '/home/saulo/ros2_servidor_ws/src/pacote5_transcritor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saulo/ros2_servidor_ws/build/pacote5_transcritor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote5_transcritor build --build-base /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build install --record /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/install.log --single-version-externally-managed install_data

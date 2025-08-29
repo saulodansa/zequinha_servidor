@@ -1,0 +1,56 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+import os
+from ament_index_python.packages import get_package_share_directory
+
+def generate_launch_description():
+    # Defina o caminho para os workspaces
+    servidor_workspace_path = os.path.expanduser('~/ros2_servidor_ws')
+    
+    # Caminho do Python do ambiente virtual para o workspace do servidor
+    servidor_venv_python = os.path.join(servidor_workspace_path, '.venv', 'bin', 'python3')
+    
+    # Caminho para os scripts Python dos nós
+    transcriber_script = os.path.join(servidor_workspace_path, 'src', 'pacote5_transcritor', 'pacote5_transcritor', 'google_transcriber_node.py')
+    llm_server_script = os.path.join(servidor_workspace_path, 'src', 'pacote6_llm', 'pacote6_llm', 'llm_server_node.py')
+    assistente_script = os.path.join(servidor_workspace_path, 'src', 'pacote6_llm', 'pacote6_llm', 'assistente_node.py')
+    synthesis_script = os.path.join(servidor_workspace_path, 'src', 'pacote8_sinteseVoz', 'pacote8_sinteseVoz', 'speech_synthesis_node.py')
+    
+    return LaunchDescription([
+        # Nó de Transcrição (Servidor)
+        Node(
+            package='pacote5_transcritor',
+            executable=servidor_venv_python,
+            arguments=[transcriber_script],
+            name='google_transcriber_node',
+            output='screen',
+            prefix='stdbuf -o L',
+        ),
+
+        # Nó Servidor do LLM (Servidor)
+        Node(
+            package='pacote6_llm',
+            executable=servidor_venv_python,
+            arguments=[llm_server_script],
+            name='llm_server_node',
+            output='screen',
+        ),
+
+        # Nó Assistente (Servidor)
+        Node(
+            package='pacote6_llm',
+            executable=servidor_venv_python,
+            arguments=[assistente_script],
+            name='assistente_node',
+            output='screen',
+        ),
+        
+        # Nó de Sintese de Voz (Servidor)
+        Node(
+            package='pacote8_sinteseVoz',
+            executable=servidor_venv_python,
+            arguments=[synthesis_script],
+            name='speech_synthesis_node',
+            output='screen',
+        ),
+    ])

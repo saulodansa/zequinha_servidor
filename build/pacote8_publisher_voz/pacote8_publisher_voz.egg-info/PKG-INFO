@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pacote8-publisher-voz
+Version: 0.0.0
+Summary: Nó ROS 2 para integração com servidor VITS de síntese de fala.
+Maintainer: Seu Nome
+Maintainer-email: seu.email@example.com
+License: Apache-2.0

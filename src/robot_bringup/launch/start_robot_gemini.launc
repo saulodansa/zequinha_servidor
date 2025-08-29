@@ -1,0 +1,64 @@
+# Este é o conteúdo do seu novo arquivo: start_robot_gemini.launch.py
+
+from launch import LaunchDescription
+from launch_ros.actions import Node
+import os
+
+def generate_launch_description():
+    # Defina o caminho para o workspace do servidor
+    servidor_workspace_path = os.path.expanduser('~/ros2_servidor_ws')
+    
+    # Caminho do Python do ambiente virtual para o workspace do servidor
+    servidor_venv_python = os.path.join(servidor_workspace_path, '.venv', 'bin', 'python3')
+    
+    # --- MUDANÇAS AQUI ---
+
+    # 1. Caminho para os scripts Python dos nós
+    transcriber_script = os.path.join(servidor_workspace_path, 'src', 'pacote5_transcritor', 'pacote5_transcritor', 'google_transcriber_node.py')
+    
+    # O 'llm_server_script' não é mais necessário, podemos remover ou comentar
+    # llm_server_script = os.path.join(servidor_workspace_path, 'src', 'pacote6_llm_gemini', 'pacote6_llm_gemini', 'llm_server_node.py')
+    
+    # ATUALIZADO: Aponta para o seu novo arquivo de nó Gemini
+    assistente_script = os.path.join(servidor_workspace_path, 'src', 'pacote6_llm_gemini', 'pacote6_llm_gemini', 'assistente_gemini_node.py')
+    
+    synthesis_script = os.path.join(servidor_workspace_path, 'src', 'pacote8_sinteseVoz', 'pacote8_sinteseVoz', 'speech_synthesis_node.py')
+    
+    return LaunchDescription([
+        # Nó de Transcrição (Servidor) - Sem alterações
+        Node(
+            package='pacote5_transcritor',
+            executable=servidor_venv_python,
+            arguments=[transcriber_script],
+            name='google_transcriber_node',
+            output='screen',
+            prefix='stdbuf -o L',
+        ),
+
+        # 2. REMOVIDO: O Nó Servidor do LLM local não é mais necessário
+        # Node(
+        #     package='pacote6_llm_gemini',
+        #     executable=servidor_venv_python,
+        #     arguments=[llm_server_script],
+        #     name='llm_server_node',
+        #     output='screen',
+        # ),
+
+        # 3. ATUALIZADO: Nó Assistente (Servidor)
+        Node(
+            package='pacote6_llm_gemini',        # O pacote continua o mesmo
+            executable=servidor_venv_python,   # O executável (Python) continua o mesmo
+            arguments=[assistente_script],     # O argumento agora aponta para o novo script
+            name='assistente_gemini_node',     # O nome do nó agora é o novo nome
+            output='screen',
+        ),
+        
+        # Nó de Sintese de Voz (Servidor) - Sem alterações
+        Node(
+            package='pacote8_sinteseVoz',
+            executable=servidor_venv_python,
+            arguments=[synthesis_script],
+            name='speech_synthesis_node',
+            output='screen',
+        ),
+    ])

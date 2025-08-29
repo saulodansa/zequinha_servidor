@@ -1,0 +1,15 @@
+/home/saulo/ros2_servidor_ws/install/audio_common/share/ament_index/resource_index/package_run_dependencies/audio_common
+/home/saulo/ros2_servidor_ws/install/audio_common/share/ament_index/resource_index/parent_prefix_path/audio_common
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/environment/ament_prefix_path.sh
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/environment/ament_prefix_path.dsv
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/environment/path.sh
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/environment/path.dsv
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/local_setup.bash
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/local_setup.sh
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/local_setup.zsh
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/local_setup.dsv
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/package.dsv
+/home/saulo/ros2_servidor_ws/install/audio_common/share/ament_index/resource_index/packages/audio_common
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/cmake/audio_commonConfig.cmake
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/cmake/audio_commonConfig-version.cmake
+/home/saulo/ros2_servidor_ws/install/audio_common/share/audio_common/package.xml

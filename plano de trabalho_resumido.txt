@@ -1,0 +1,82 @@
+Projeto Robô Conversacional – Registro Resumido
+Visão Geral
+
+Robô conversacional distribuído:
+
+Raspberry Pi (Corpo): sensores (microfone, câmera), atuadores (servos, alto-falante), nós leves e ponte.
+
+Servidor em Nuvem (Cérebro): transcrição de voz, LLM, síntese de voz e lipsync.
+
+Arquitetura: entrada (áudio/imagem) → processamento em nuvem → saída (voz + movimento).
+
+Principais Problemas e Soluções
+
+Conflito de dependências (ModuleNotFoundError):
+
+Causa: colcon sobrescrevia o shebang dos .py, quebrando ambientes virtuais.
+
+Solução: script .sh pós-build que reescreve o shebang para o ambiente correto.
+
+Erros de configuração (No executable found):
+
+Causa: setup.py incorreto.
+
+Solução: corrigir entry_points.
+
+Qualidade da transcrição (Whisper ininteligível):
+
+Causa: ruído de microfone + amostragem.
+
+Solução: ajuste de microfone + implementação de VAD no audio_capture_node.py.
+
+Falha na síntese de voz (na VM):
+
+Causa: servidor sem placa de som.
+
+Solução: refatoração → servidor só publica áudio, cliente (Pi) reproduz.
+
+Dependências ROS no Raspberry Pi:
+
+Causa: repositório apt configurado para amd64 em vez de arm64.
+
+Próximo passo: corrigir fontes e instalar ros-jazzy-audio-common-msgs.
+
+Estrutura de Pacotes ROS 2
+
+pacote1 – image_publisher.py: visão.
+
+pacote2 – olhos_node.py: rastreamento básico.
+
+pacote3 – serial_node.py: servos.
+
+pacote4 – audio_capture_node.py: entrada de áudio (com VAD).
+
+server_bridge – server_publisher_node.py: ponte para servidor.
+
+pacote5_transcritor – transcriber_node.py: STT.
+
+pacote6_llm – assistente_node.py: orquestração LLM.
+
+pacote7_vits – container Docker com VITS.
+
+pacote8_sinteseVoz – versão original.
+
+pacote8_publisher_voz – publica áudio bruto.
+
+pacote9_audio_player – reproduz áudio no Pi.
+
+pacote8_google_tts – alternativa com Google TTS.
+
+robot_bringup – start_robot.launch.py: inicializa sistema.
+
+Status Atual (26/08/2025)
+
+VM no Google Cloud criada e configurada (Ubuntu 24.04, ROS 2 Jazzy, GPU T4 com CUDA 12.5).
+
+Arquitetura de áudio refatorada (publicação → reprodução).
+
+Novo repositório Git configurado com .gitignore e histórico limpo.
+
+Falta resolver dependências do ROS 2 no Raspberry Pi para integrar o audio_player_node.
+
+

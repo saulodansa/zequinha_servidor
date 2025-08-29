@@ -1,0 +1,2 @@
+[console_scripts]
+speech_synthesis_publisher = pacote8_publisher_voz.speech_synthesis_publisher_node:main

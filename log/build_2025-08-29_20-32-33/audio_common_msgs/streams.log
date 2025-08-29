@@ -1,0 +1,295 @@
+[0.022s] Invoking command in '/home/saulo/ros2_servidor_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saulo/ros2_servidor_ws/src/audio_common/audio_common_msgs -DCMAKE_INSTALL_PREFIX=/home/saulo/ros2_servidor_ws/install/audio_common_msgs
+[0.544s] -- The C compiler identification is GNU 13.3.0
+[0.544s] -- The CXX compiler identification is GNU 13.3.0
+[0.544s] -- Detecting C compiler ABI info
+[0.545s] -- Detecting C compiler ABI info - done
+[0.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.545s] -- Detecting C compile features
+[0.545s] -- Detecting C compile features - done
+[0.545s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.545s] -- Detecting CXX compile features - done
+[0.545s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.545s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.568s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.681s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.685s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.224s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.146s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.256s] -- Found PythonExtra: /usr/bin/python3  
+[2.595s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.638s] -- Configuring done (2.6s)
+[2.669s] -- Generating done (0.0s)
+[2.678s] -- Build files have been written to: /home/saulo/ros2_servidor_ws/build/audio_common_msgs
+[2.684s] Invoked command in '/home/saulo/ros2_servidor_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saulo/ros2_servidor_ws/src/audio_common/audio_common_msgs -DCMAKE_INSTALL_PREFIX=/home/saulo/ros2_servidor_ws/install/audio_common_msgs
+[2.686s] Invoking command in '/home/saulo/ros2_servidor_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saulo/ros2_servidor_ws/build/audio_common_msgs -- -j16 -l16
+[2.737s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.746s] [  1%] Built target ament_cmake_python_copy_audio_common_msgs
+[2.927s] running egg_info
+[2.927s] creating audio_common_msgs.egg-info
+[2.942s] [  1%] Built target audio_common_msgs__rosidl_generator_type_description
+[2.945s] writing audio_common_msgs.egg-info/PKG-INFO
+[2.945s] writing dependency_links to audio_common_msgs.egg-info/dependency_links.txt
+[2.945s] writing top-level names to audio_common_msgs.egg-info/top_level.txt
+[2.945s] writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[2.952s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.962s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.996s] reading manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[2.997s] writing manifest file 'audio_common_msgs.egg-info/SOURCES.txt'
+[3.029s] [  5%] Built target ament_cmake_python_build_audio_common_msgs_egg
+[3.233s] [  5%] Built target audio_common_msgs__cpp
+[3.283s] [ 18%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c.o[0m
+[3.283s] [ 18%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__description.c.o[0m
+[3.283s] [ 18%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__description.c.o[0m
+[3.284s] [ 18%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__functions.c.o[0m
+[3.284s] [ 18%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__functions.c.o[0m
+[3.284s] [ 18%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__description.c.o[0m
+[3.284s] [ 18%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o[0m
+[3.284s] [ 20%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_data_stamped__functions.c.o[0m
+[3.285s] [ 22%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o[0m
+[3.328s] [ 24%] [32m[1mLinking C shared library libaudio_common_msgs__rosidl_generator_c.so[0m
+[3.364s] [ 24%] Built target audio_common_msgs__rosidl_generator_c
+[3.375s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.375s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.375s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.375s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.375s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.375s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.622s] [ 40%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o[0m
+[3.622s] [ 40%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_data__type_support.cpp.o[0m
+[3.622s] [ 40%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_common_msgs/msg/audio_info__type_support.cpp.o[0m
+[3.638s] [ 46%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data__type_support.cpp.o[0m
+[3.638s] [ 46%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_data_stamped__type_support.cpp.o[0m
+[3.638s] [ 46%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_common_msgs/msg/audio_info__type_support.cpp.o[0m
+[3.667s] [ 51%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_info__type_support.cpp.o[0m
+[3.667s] [ 51%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data__type_support.cpp.o[0m
+[3.667s] [ 51%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp.o[0m
+[3.678s] [ 53%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data__type_support.c.o[0m
+[3.688s] [ 57%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c.o[0m
+[3.688s] [ 57%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_common_msgs/msg/detail/audio_info__type_support.c.o[0m
+[3.688s] [ 59%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_c.so[0m
+[3.702s] [ 61%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o[0m
+[3.702s] [ 62%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_data_stamped__type_support.cpp.o[0m
+[3.702s] [ 64%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_common_msgs/msg/detail/dds_fastrtps/audio_info__type_support.cpp.o[0m
+[3.718s] [ 66%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_info__type_support_c.cpp.o[0m
+[3.719s] [ 70%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data_stamped__type_support_c.cpp.o[0m
+[3.719s] [ 70%] [32mBuilding CXX object CMakeFiles/audio_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_common_msgs/msg/detail/audio_data__type_support_c.cpp.o[0m
+[3.745s] [ 72%] [32m[1mLinking C shared library libaudio_common_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.752s] [ 72%] Built target audio_common_msgs__rosidl_typesupport_c
+[3.797s] [ 72%] Built target audio_common_msgs__rosidl_typesupport_introspection_c
+[3.949s] [ 74%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_cpp.so[0m
+[3.995s] [ 74%] Built target audio_common_msgs__rosidl_typesupport_cpp
+[4.056s] [ 75%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.144s] [ 75%] Built target audio_common_msgs__rosidl_typesupport_introspection_cpp
+[4.195s] [ 77%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.212s] [ 79%] [32m[1mLinking CXX shared library libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.263s] [ 79%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_cpp
+[4.281s] [ 79%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c
+[4.301s] [ 79%] Built target audio_common_msgs
+[4.323s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.682s] [ 81%] Built target audio_common_msgs__py
+[4.703s] [ 87%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_s.c.o[0m
+[4.703s] [ 87%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_data_stamped_s.c.o[0m
+[4.703s] [ 87%] [32mBuilding C object CMakeFiles/audio_common_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_common_msgs/msg/_audio_info_s.c.o[0m
+[4.805s] [ 88%] [32m[1mLinking C shared library libaudio_common_msgs__rosidl_generator_py.so[0m
+[4.848s] [ 88%] Built target audio_common_msgs__rosidl_generator_py
+[4.868s] [ 94%] [32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.868s] [ 94%] [32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.868s] [ 94%] [32mBuilding C object CMakeFiles/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.952s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so[0m
+[4.954s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[4.957s] [100%] [32m[1mLinking C shared module rosidl_generator_py/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.982s] [100%] Built target audio_common_msgs_s__rosidl_typesupport_introspection_c
+[4.982s] [100%] Built target audio_common_msgs_s__rosidl_typesupport_c
+[4.987s] [100%] Built target audio_common_msgs_s__rosidl_typesupport_fastrtps_c
+[4.999s] Invoked command in '/home/saulo/ros2_servidor_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saulo/ros2_servidor_ws/build/audio_common_msgs -- -j16 -l16
+[5.009s] Invoking command in '/home/saulo/ros2_servidor_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saulo/ros2_servidor_ws/build/audio_common_msgs
+[5.018s] -- Install configuration: ""
+[5.018s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_common_msgs
+[5.018s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.json
+[5.018s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.json
+[5.019s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.json
+[5.019s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.019s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.019s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.h
+[5.019s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.h
+[5.019s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.h
+[5.019s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.c
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.c
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.h
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.h
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__description.c
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__functions.c
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__functions.h
+[5.020s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__description.c
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.h
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.h
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__functions.h
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.h
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.h
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__description.c
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.h
+[5.021s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.sh
+[5.022s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.dsv
+[5.022s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so
+[5.022s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so" to ""
+[5.022s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.022s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.022s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.022s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.022s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_c.h
+[5.023s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[5.023s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_c.h
+[5.023s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so
+[5.023s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.023s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.023s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.023s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.023s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.023s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.c
+[5.023s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.c
+[5.023s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.c
+[5.024s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_c.h
+[5.024s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_c.h
+[5.024s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[5.024s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so
+[5.024s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.024s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so
+[5.024s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so" to ""
+[5.024s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.024s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data_stamped.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_data.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/audio_info.hpp
+[5.025s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__traits.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__traits.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__struct.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__builder.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__builder.hpp
+[5.025s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.hpp
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__struct.hpp
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__builder.hpp
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.hpp
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__traits.hpp
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__struct.hpp
+[5.026s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.026s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.026s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.026s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[5.027s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/dds_fastrtps
+[5.027s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.027s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.027s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs
+[5.027s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg
+[5.027s] -- Up-to-date: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail
+[5.027s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__type_support.cpp
+[5.027s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_cpp.hpp
+[5.027s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data_stamped__rosidl_typesupport_introspection_cpp.hpp
+[5.028s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_info__type_support.cpp
+[5.028s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__type_support.cpp
+[5.028s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/include/audio_common_msgs/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[5.028s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so
+[5.028s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.028s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so
+[5.029s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so" to ""
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.sh
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.dsv
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/top_level.txt
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/SOURCES.txt
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/dependency_links.txt
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs-0.3.12-py3.12.egg-info/PKG-INFO
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs
+[5.029s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/__init__.py
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped.py
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info_s.c
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info.py
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped_s.c
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data.py
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_s.c
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/__init__.py
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so
+[5.030s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_c.c
+[5.031s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.031s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/_audio_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.031s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.062s] Listing '/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs'...
+[5.062s] Compiling '/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/__init__.py'...
+[5.063s] Listing '/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg'...
+[5.063s] Compiling '/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/__init__.py'...
+[5.063s] Compiling '/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data.py'...
+[5.063s] Compiling '/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_data_stamped.py'...
+[5.063s] Compiling '/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/msg/_audio_info.py'...
+[5.066s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.067s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.067s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so
+[5.067s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[5.068s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so
+[5.068s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.so" to ""
+[5.068s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so
+[5.068s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_py.so" to ""
+[5.068s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.idl
+[5.068s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.idl
+[5.068s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.idl
+[5.069s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.msg
+[5.069s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioDataStamped.msg
+[5.069s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.msg
+[5.069s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/ament_index/resource_index/package_run_dependencies/audio_common_msgs
+[5.069s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/ament_index/resource_index/parent_prefix_path/audio_common_msgs
+[5.069s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.sh
+[5.069s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.dsv
+[5.070s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.sh
+[5.070s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.dsv
+[5.070s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.bash
+[5.070s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.sh
+[5.070s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.zsh
+[5.070s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.dsv
+[5.070s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/package.dsv
+[5.070s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/ament_index/resource_index/packages/audio_common_msgs
+[5.071s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport.cmake
+[5.071s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.071s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.071s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.071s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.071s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.071s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport.cmake
+[5.071s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.072s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_cppExport.cmake
+[5.072s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.072s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.072s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.072s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.072s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport.cmake
+[5.072s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.073s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport.cmake
+[5.073s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/export_audio_common_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.073s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake-extras.cmake
+[5.073s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.073s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.073s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.073s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.073s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.074s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.074s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig.cmake
+[5.074s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig-version.cmake
+[5.074s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/package.xml
+[5.076s] Invoked command in '/home/saulo/ros2_servidor_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saulo/ros2_servidor_ws/build/audio_common_msgs

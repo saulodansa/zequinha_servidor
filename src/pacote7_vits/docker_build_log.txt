@@ -1,0 +1,72 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 3.54kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
+#2 DONE 1.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [ 1/14] FROM docker.io/nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04@sha256:f4d8e1264366940438f0353da6f289c7bef069d993d111f8106086ccd18c4a30
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 1.03kB done
+#5 DONE 0.0s
+
+#6 [ 7/14] COPY pacote7_vits/modules.py /app/pacote7_vits_module_src/modules.py
+#6 CACHED
+
+#7 [ 3/14] WORKDIR /app
+#7 CACHED
+
+#8 [ 4/14] COPY pacote7_vits /app/pacote7_vits_module_src
+#8 CACHED
+
+#9 [10/14] RUN python3 -m venv /app/venv_vits
+#9 CACHED
+
+#10 [ 6/14] COPY pacote7_vits/_vits_flask_runner.py /app/_vits_flask_runner.py
+#10 CACHED
+
+#11 [ 9/14] COPY pacote7_vits/attentions.py /app/pacote7_vits_module_src/attentions.py
+#11 CACHED
+
+#12 [ 8/14] COPY pacote7_vits/transforms.py /app/pacote7_vits_module_src/transforms.py
+#12 CACHED
+
+#13 [ 2/14] RUN apt-get update && apt-get install -y --no-install-recommends     python3.10 python3.10-venv python3-pip     git     build-essential     libsndfile1     ffmpeg     libportaudio2     portaudio19-dev     python3.10-dev     libcairo2-dev pkg-config     libgirepository1.0-dev gobject-introspection     alsa-utils     && rm -rf /var/lib/apt/lists/*
+#13 CACHED
+
+#14 [ 5/14] COPY requirements.txt /app/requirements.txt
+#14 CACHED
+
+#15 [11/14] RUN pip install --no-cache-dir     torch torchaudio torchvision --index-url https://download.pytorch.org/whl/cu121     && pip install --no-cache-dir -r /app/requirements.txt
+#15 CACHED
+
+#16 [12/14] RUN git clone https://github.com/jaywalnut310/monotonic_align.git /app/monotonic_align_source &&     cd /app/monotonic_align_source &&     python3 setup.py build_ext --inplace &&     mkdir -p /app/monotonic_align/monotonic_align &&     cp monotonic_align/core.*.so /app/monotonic_align/monotonic_align/ &&     rm -rf /app/monotonic_align_source
+#16 0.133 Cloning into '/app/monotonic_align_source'...
+#16 0.391 fatal: could not read Username for 'https://github.com': No such device or address
+#16 ERROR: process "/bin/sh -c git clone https://github.com/jaywalnut310/monotonic_align.git /app/monotonic_align_source &&     cd /app/monotonic_align_source &&     python3 setup.py build_ext --inplace &&     mkdir -p /app/monotonic_align/monotonic_align &&     cp monotonic_align/core.*.so /app/monotonic_align/monotonic_align/ &&     rm -rf /app/monotonic_align_source" did not complete successfully: exit code: 128
+------
+ > [12/14] RUN git clone https://github.com/jaywalnut310/monotonic_align.git /app/monotonic_align_source &&     cd /app/monotonic_align_source &&     python3 setup.py build_ext --inplace &&     mkdir -p /app/monotonic_align/monotonic_align &&     cp monotonic_align/core.*.so /app/monotonic_align/monotonic_align/ &&     rm -rf /app/monotonic_align_source:
+0.133 Cloning into '/app/monotonic_align_source'...
+0.391 fatal: could not read Username for 'https://github.com': No such device or address
+------
+Dockerfile:53
+--------------------
+  52 |     # Isso garante compatibilidade total com o Python do container (3.10)
+  53 | >>> RUN git clone https://github.com/jaywalnut310/monotonic_align.git /app/monotonic_align_source && \
+  54 | >>>     cd /app/monotonic_align_source && \
+  55 | >>>     python3 setup.py build_ext --inplace && \
+  56 | >>>     # Copia o .so compilado para um local acessível onde _vits_flask_runner.py vai procurar
+  57 | >>>     mkdir -p /app/monotonic_align/monotonic_align && \
+  58 | >>>     cp monotonic_align/core.*.so /app/monotonic_align/monotonic_align/ && \
+  59 | >>>     rm -rf /app/monotonic_align_source
+  60 |     # --- FIM NOVO: Compilação de Monotonic Align ---
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c git clone https://github.com/jaywalnut310/monotonic_align.git /app/monotonic_align_source &&     cd /app/monotonic_align_source &&     python3 setup.py build_ext --inplace &&     mkdir -p /app/monotonic_align/monotonic_align &&     cp monotonic_align/core.*.so /app/monotonic_align/monotonic_align/ &&     rm -rf /app/monotonic_align_source" did not complete successfully: exit code: 128

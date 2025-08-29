@@ -1,0 +1,64 @@
+[1.316s] Invoking command in '/home/saulo/ros2_servidor_ws/src/pacote7_vits': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saulo/ros2_servidor_ws/build/pacote7_vits/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote7_vits build --build-base /home/saulo/ros2_servidor_ws/build/pacote7_vits/build install --record /home/saulo/ros2_servidor_ws/build/pacote7_vits/install.log --single-version-externally-managed install_data
+[1.543s] running egg_info
+[1.543s] creating ../../build/pacote7_vits/pacote7_vits.egg-info
+[1.560s] writing ../../build/pacote7_vits/pacote7_vits.egg-info/PKG-INFO
+[1.560s] writing dependency_links to ../../build/pacote7_vits/pacote7_vits.egg-info/dependency_links.txt
+[1.560s] writing requirements to ../../build/pacote7_vits/pacote7_vits.egg-info/requires.txt
+[1.560s] writing top-level names to ../../build/pacote7_vits/pacote7_vits.egg-info/top_level.txt
+[1.560s] writing manifest file '../../build/pacote7_vits/pacote7_vits.egg-info/SOURCES.txt'
+[1.595s] reading manifest file '../../build/pacote7_vits/pacote7_vits.egg-info/SOURCES.txt'
+[1.596s] writing manifest file '../../build/pacote7_vits/pacote7_vits.egg-info/SOURCES.txt'
+[1.596s] running build
+[1.596s] running build_py
+[1.597s] creating /home/saulo/ros2_servidor_ws/build/pacote7_vits/build
+[1.597s] creating /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib
+[1.597s] creating /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.597s] copying pacote7_vits/models.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.597s] copying pacote7_vits/commons.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.597s] copying pacote7_vits/modules.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.598s] copying pacote7_vits/__init__.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.598s] copying pacote7_vits/utils.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.598s] copying pacote7_vits/_vits_flask_runner.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.598s] copying pacote7_vits/transforms.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.598s] copying pacote7_vits/attentions.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits
+[1.598s] creating /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/text
+[1.598s] copying pacote7_vits/text/cleaners.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/text
+[1.598s] copying pacote7_vits/text/__init__.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/text
+[1.598s] copying pacote7_vits/text/symbols.py -> /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/text
+[1.599s] running install
+[1.604s] running install_lib
+[1.623s] creating /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.624s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/models.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.624s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/commons.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.624s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/modules.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.624s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/__init__.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.624s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/utils.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.624s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/_vits_flask_runner.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.624s] creating /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/text
+[1.625s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/text/cleaners.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/text
+[1.625s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/text/__init__.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/text
+[1.625s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/text/symbols.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/text
+[1.625s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/transforms.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.625s] copying /home/saulo/ros2_servidor_ws/build/pacote7_vits/build/lib/pacote7_vits/attentions.py -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits
+[1.625s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/models.py to models.cpython-312.pyc
+[1.630s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/commons.py to commons.cpython-312.pyc
+[1.631s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/modules.py to modules.cpython-312.pyc
+[1.634s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/__init__.py to __init__.cpython-312.pyc
+[1.634s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/utils.py to utils.cpython-312.pyc
+[1.636s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/_vits_flask_runner.py to _vits_flask_runner.cpython-312.pyc
+[1.637s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/text/cleaners.py to cleaners.cpython-312.pyc
+[1.638s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/text/__init__.py to __init__.cpython-312.pyc
+[1.638s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/text/symbols.py to symbols.cpython-312.pyc
+[1.638s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/transforms.py to transforms.cpython-312.pyc
+[1.639s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits/attentions.py to attentions.cpython-312.pyc
+[1.641s] running install_data
+[1.641s] creating /home/saulo/ros2_servidor_ws/install/pacote7_vits/share/ament_index
+[1.641s] creating /home/saulo/ros2_servidor_ws/install/pacote7_vits/share/ament_index/resource_index
+[1.641s] creating /home/saulo/ros2_servidor_ws/install/pacote7_vits/share/ament_index/resource_index/packages
+[1.641s] copying resource/pacote7_vits -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/share/ament_index/resource_index/packages
+[1.642s] copying package.xml -> /home/saulo/ros2_servidor_ws/install/pacote7_vits/share/pacote7_vits
+[1.642s] running install_egg_info
+[1.660s] Copying ../../build/pacote7_vits/pacote7_vits.egg-info to /home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages/pacote7_vits-0.0.0-py3.12.egg-info
+[1.660s] running install_scripts
+[1.776s] writing list of installed files to '/home/saulo/ros2_servidor_ws/build/pacote7_vits/install.log'
+[1.807s] Invoked command in '/home/saulo/ros2_servidor_ws/src/pacote7_vits' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saulo/ros2_servidor_ws/build/pacote7_vits/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/pacote7_vits/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote7_vits build --build-base /home/saulo/ros2_servidor_ws/build/pacote7_vits/build install --record /home/saulo/ros2_servidor_ws/build/pacote7_vits/install.log --single-version-externally-managed install_data

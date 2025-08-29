@@ -1,0 +1,9 @@
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/uninstall.dir
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/audio_common_uninstall.dir
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/test.dir
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/edit_cache.dir
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/rebuild_cache.dir
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/list_install_components.dir
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/install.dir
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/install/local.dir
+/home/saulo/ros2_servidor_ws/build/audio_common/CMakeFiles/install/strip.dir

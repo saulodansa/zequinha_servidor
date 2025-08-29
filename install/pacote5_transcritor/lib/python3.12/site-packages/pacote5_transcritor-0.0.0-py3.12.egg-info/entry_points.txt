@@ -1,0 +1,2 @@
+[console_scripts]
+transcriber_node = pacote5_transcritor.google_transcriber_node:main

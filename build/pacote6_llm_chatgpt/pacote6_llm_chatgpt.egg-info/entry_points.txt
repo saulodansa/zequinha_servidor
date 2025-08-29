@@ -1,0 +1,3 @@
+[console_scripts]
+assistente_chatgpt = pacote6_llm_chatgpt.assistente_node:main
+llm_server = pacote6_llm_chatgpt.llm_server_node:main

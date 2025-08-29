@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/pacote5_transcritor/pacote5_transcritor.egg-info/PKG-INFO
+../../build/pacote5_transcritor/pacote5_transcritor.egg-info/SOURCES.txt
+../../build/pacote5_transcritor/pacote5_transcritor.egg-info/dependency_links.txt
+../../build/pacote5_transcritor/pacote5_transcritor.egg-info/entry_points.txt
+../../build/pacote5_transcritor/pacote5_transcritor.egg-info/requires.txt
+../../build/pacote5_transcritor/pacote5_transcritor.egg-info/top_level.txt
+../../build/pacote5_transcritor/pacote5_transcritor.egg-info/zip-safe
+pacote5_transcritor/__init__.py
+pacote5_transcritor/google_transcriber_node.py
+resource/pacote5_transcritor
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

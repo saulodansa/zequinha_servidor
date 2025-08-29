@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/PKG-INFO
+../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/SOURCES.txt
+../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/dependency_links.txt
+../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/entry_points.txt
+../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/requires.txt
+../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/top_level.txt
+../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/zip-safe
+pacote8_publisher_voz/__init__.py
+pacote8_publisher_voz/speech_synthesis_publisher_node.py
+resource/pacote8_publisher_voz
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

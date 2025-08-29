@@ -1,0 +1,48 @@
+[1.302s] Invoking command in '/home/saulo/ros2_servidor_ws/src/pacote6_llm_chatgpt': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote6_llm_chatgpt build --build-base /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build install --record /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/install.log --single-version-externally-managed install_data
+[1.531s] running egg_info
+[1.531s] creating ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info
+[1.548s] writing ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/PKG-INFO
+[1.548s] writing dependency_links to ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/dependency_links.txt
+[1.548s] writing entry points to ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/entry_points.txt
+[1.548s] writing requirements to ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/requires.txt
+[1.548s] writing top-level names to ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/top_level.txt
+[1.548s] writing manifest file '../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/SOURCES.txt'
+[1.583s] reading manifest file '../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/SOURCES.txt'
+[1.583s] writing manifest file '../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/SOURCES.txt'
+[1.583s] running build
+[1.584s] running build_py
+[1.584s] creating /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build
+[1.584s] creating /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib
+[1.584s] creating /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+[1.584s] copying pacote6_llm_chatgpt/llm_manager.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+[1.584s] copying pacote6_llm_chatgpt/__init__.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+[1.584s] copying pacote6_llm_chatgpt/llm_server_node.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+[1.584s] copying pacote6_llm_chatgpt/assistente_chatgpt_node.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+[1.585s] copying pacote6_llm_chatgpt/personalidade_robo.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+[1.585s] running install
+[1.589s] running install_lib
+[1.608s] creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+[1.609s] copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/llm_manager.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+[1.609s] copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/__init__.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+[1.609s] copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/llm_server_node.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+[1.609s] copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/assistente_chatgpt_node.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+[1.609s] copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/personalidade_robo.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+[1.609s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/llm_manager.py to llm_manager.cpython-312.pyc
+[1.610s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/__init__.py to __init__.cpython-312.pyc
+[1.610s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/llm_server_node.py to llm_server_node.cpython-312.pyc
+[1.611s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/assistente_chatgpt_node.py to assistente_chatgpt_node.cpython-312.pyc
+[1.612s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/personalidade_robo.py to personalidade_robo.cpython-312.pyc
+[1.612s] running install_data
+[1.612s] creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/ament_index
+[1.612s] creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/ament_index/resource_index
+[1.612s] creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/ament_index/resource_index/packages
+[1.612s] copying resource/pacote6_llm_chatgpt -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/ament_index/resource_index/packages
+[1.612s] copying package.xml -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/pacote6_llm_chatgpt
+[1.612s] creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/pacote6_llm_chatgpt/models
+[1.613s] running install_egg_info
+[1.633s] Copying ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info to /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt-0.0.0-py3.12.egg-info
+[1.634s] running install_scripts
+[1.751s] Installing assistente_chatgpt script to /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/pacote6_llm_chatgpt
+[1.751s] Installing llm_server script to /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/pacote6_llm_chatgpt
+[1.752s] writing list of installed files to '/home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/install.log'
+[1.788s] Invoked command in '/home/saulo/ros2_servidor_ws/src/pacote6_llm_chatgpt' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote6_llm_chatgpt build --build-base /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build install --record /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/install.log --single-version-externally-managed install_data

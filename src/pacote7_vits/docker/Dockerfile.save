@@ -1,0 +1,43 @@
+# Dockerfile para o Servidor VITS (pacote6)
+
+# Usa uma imagem base com Python e suporte a CUDA, compatível com seu ambiente original
+FROM nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
+
+# Instala o Python 3.9 e o venv
+RUN apt-get update && apt-get install -y --no-install-recommends \
+# Define o diretório de trabalho principal dentro do container para a raiz do seu aplicativo
+# Isso simplifica os caminhos de COPY
+WORKDIR /app
+
+# Copia todo o conteúdo da raiz do pacote6 (incluindo pacote6/, monotonic_align/, requirements.txt)
+# para /app dentro do container. O '.' no final do COPY se refere ao contexto de build.
+COPY . /app
+
+# Cria e ativa o ambiente virtual VITS dentro do container
+RUN python3 -m venv /app/venv_vits
+ENV PATH="/app/venv_vits/bin:$PATH"
+
+# Instala as dependências no ambiente virtual VITS dentro do container
+# PyTorch com CUDA 12.1
+RUN pip install --no-cache-dir \
+    torch==2.5.1+cu121 torchaudio==2.5.1+cu121 torchvision==0.20.1+cu121 --index-url https://download.pytorch.org/whl/cu121 \
+    && pip install --no-cache-dir -r /app/requirements.txt
+
+# --- Instalação de Monotonic Align (Customizada para a sua estrutura) ---
+# Navega para a pasta do monotonic_align dentro do WORKDIR /app e instala
+RUN pip install --no-cache-dir /app/monotonic_align
+# --- Fim da Instalação de Monotonic Align ---
+
+# Garante que os logs temporários do VITS possam ser escritos
+RUN mkdir -p /app/pacote6_module/temp_audio_vits
+# (A pasta pacote6_module é onde os scripts VITS estarão depois do COPY acima)
+
+# Expõe a porta que o servidor Flask do VITS vai usar
+EXPOSE 5002
+
+# Define o comando que será executado quando o container iniciar
+# O PYTHONPATH é ajustado para que o runner encontre os módulos do pacote6_module
+CMD ["bash", "-c", "export PYTHONPATH=$PYTHONPATH:/app/pacote6_module && python3 /app/pacote6_module/vits_server.py"]
+# Nota: vits_server.py aqui é o seu _vits_flask_runner.py renomeado.
+# Ajuste o nome do arquivo aqui para _vits_flask_runner.py
+# CMD ["bash", "-c", "export PYTHONPATH=$PYTHONPATH:/app/pacote6_module && python3 /app/pacote6_module/_vits_flask_runner.py"]

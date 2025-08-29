@@ -1,0 +1,103 @@
+Documento de Projeto: Robô Conversacional "Zequinha"
+
+1. Visão Geral e Arquitetura
+
+Conceito: O projeto consiste em um robô conversacional fisicamente presente, projetado para atuar como um assistente interativo. A arquitetura é distribuída, separando as capacidades de percepção/atuação do processamento pesado de IA para garantir escalabilidade e performance.
+
+Arquitetura Distribuída: O sistema é dividido em duas partes principais:
+
+    O Corpo (Raspberry Pi): Um cliente leve responsável pela interação direta com o ambiente. Ele gerencia os sensores (câmera, microfone) e os atuadores (servomotores, alto-falante).
+
+    O Cérebro (Servidor em Nuvem/VM): Um servidor robusto que executa as tarefas computacionalmente intensivas: transcrição de fala para texto (STT), processamento de linguagem natural (LLM), síntese de texto para fala (TTS) e lógicas complexas de visão computacional.
+
+Fluxo de Interação Principal:
+
+    O Corpo detecta a fala do usuário e captura o áudio.
+
+    O áudio é enviado para o Cérebro.
+
+    O Cérebro transcreve o áudio, envia o texto para um LLM e gera uma resposta.
+
+    A resposta em texto é sintetizada em áudio.
+
+    O áudio sintetizado é enviado de volta para o Corpo.
+
+    O Corpo reproduz a resposta em áudio para o usuário.
+
+2. Estrutura de Pacotes ROS 2
+
+Após a refatoração, a estrutura de pacotes foi organizada em dois workspaces autocontidos:
+
+Workspace do Robô (ros2_dist_ws)
+
+Pacote	Nó Principal	Função
+pacote1	image_publisher	Captura e publica imagens da câmera.
+pacote2	olhos_node	Processamento de visão leve para rastreamento.
+pacote3	serial_node	Controla os servomotores via comunicação serial.
+pacote4	audio_capture_node	Captura áudio do microfone, aplicando VAD.
+pacote9_audio_player	audio_play_node	Recebe e reproduz o áudio vindo do servidor.
+server_bridge	server_publisher_node	Ponte que envia dados do robô para o servidor.
+audio_common	(Dependência)	Fornece as definições de mensagens de áudio.
+
+Workspace do Servidor (ros2_servidor_ws)
+
+Pacote	Nó Principal	Função
+pacote5_transcritor	google_transcriber_node	Recebe áudio e realiza a transcrição STT.
+pacote6_llm_chatgpt	assistente_chatgpt_node	Orquestra a comunicação com a API do LLM.
+pacote7_vits	(Servidor Docker)	Fornece o serviço de síntese de voz VITS.
+pacote8_publisher_voz	speech_synthesis_publisher	Gera áudio e o publica para o robô.
+robot_bringup	(Arquivos de Launch)	Contém os scripts para iniciar os sistemas.
+audio_common	(Dependência)	Fornece as definições de mensagens de áudio.
+
+3. Estratégias e Lições Aprendidas
+
+Esta seção documenta as soluções para os maiores desafios do projeto, servindo como guia para desenvolvimentos futuros.
+
+1. O Problema do colcon com Ambientes Virtuais (venv)
+
+    Problema: colcon build sobrescreve a primeira linha (shebang) dos scripts executáveis Python no diretório install, fazendo-os apontar para o Python do sistema em vez do venv. Isso causa erros de ModuleNotFoundError para bibliotecas instaladas no ambiente virtual.
+
+    Solução Estratégica: Criar scripts de inicialização (.sh) para cada workspace. Esses scripts executam o colcon build e, em seguida, utilizam um comando (sed) para reescrever o shebang de cada nó Python, forçando-o a usar o interpretador correto do venv. Somente após essa correção o script chama o ros2 launch. Esta abordagem se mostrou robusta e resolveu um dos problemas mais recorrentes do projeto.
+
+2. Arquitetura de Áudio Distribuída
+
+    Problema: A tentativa de rodar o nó de síntese de voz na VM falhou, pois a VM não possui hardware de áudio (placa de som).
+
+    Solução Estratégica: Refatorar a arquitetura de áudio. Em vez de o servidor tentar tocar o som, ele agora apenas gera os dados brutos do áudio e os publica em um tópico ROS 2. Um nó dedicado no cliente (robô) se inscreve neste tópico e é o único responsável por reproduzir o som. Essa arquitetura é mais robusta e adequada para sistemas distribuídos.
+
+3. Qualidade da Transcrição e Detecção de Atividade de Voz (VAD)
+
+    Problema: A transcrição inicial era ininteligível, mesmo com modelos de alta qualidade. A causa raiz era o ruído de fundo constante do microfone, que "sujava" os dados enviados.
+
+    Solução Estratégica: Implementar uma lógica de VAD diretamente no audio_capture_node. O nó agora analisa a energia do áudio em tempo real e só publica os trechos que contêm fala, ignorando o silêncio e o ruído. Isso melhorou drasticamente a qualidade da transcrição e reduziu o tráfego de rede.
+
+4. Medição de Latência e Experiência do Usuário (UX)
+
+    Problema: A latência total (fim da fala do usuário -> início da resposta do robô) é variável e pode ser longa, prejudicando a experiência do usuário.
+
+    Solução Estratégica: Criar um mecanismo de medição de latência usando um tópico ROS 2 dedicado (/latency_start_time). O audio_capture_node publica um carimbo de tempo assim que detecta o fim da fala. O audio_play_node recebe esse carimbo e, ao começar a tocar a resposta, calcula a diferença. A estratégia futura é usar um tópico similar (/robot/status) para controlar o estado do robô ("processando", "falando"), permitindo a ativação de feedbacks visuais ou sonoros para manter o usuário engajado durante a espera.
+
+4. Status Atual e Próximos Passos
+
+Status (29 de Agosto de 2025):
+O sistema está 100% funcional no ambiente de desenvolvimento local. O fluxo completo de conversação por áudio foi validado: captura com VAD, comunicação entre workspaces, transcrição, processamento pelo LLM, síntese de voz e reprodução. Os workspaces foram limpos e refatorados para uma arquitetura clara e autocontida.
+
+Próximos Passos Imediatos:
+
+    Deploy: Migrar os workspaces para seus ambientes finais:
+
+        Copiar e configurar o ros2_servidor_ws na VM do Google Cloud.
+
+        Copiar e configurar o ros2_dist_ws no Raspberry Pi, prestando atenção às dependências da arquitetura arm64.
+
+    Configuração de Rede: Implementar a solução de comunicação entre a rede local do Pi e a nuvem da VM (ex: VPN, ROS 2 Router, ou uma ponte customizada).
+
+    Implementação de UX: Desenvolver a lógica do "estado de processamento" baseada no tópico /robot/status para fornecer feedback visual ao usuário durante a espera.
+
+------
+p faze ro upload p o github:
+cd ~/ros2_servidor_ws
+git add .
+git commit -m "Descrição da mudança"
+git push
+

@@ -1,0 +1,37 @@
+[0.753s] Invoking command in '/home/saulo/ros2_servidor_ws/src/pacote8_publisher_voz': AMENT_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/python3.12/site-packages:/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote8_publisher_voz build --build-base /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build install --record /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/install.log --single-version-externally-managed install_data
+[0.975s] running egg_info
+[0.975s] creating ../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info
+[0.992s] writing ../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/entry_points.txt
+[0.992s] writing requirements to ../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/requires.txt
+[0.992s] writing top-level names to ../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/top_level.txt
+[0.993s] writing manifest file '../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/SOURCES.txt'
+[1.027s] reading manifest file '../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/SOURCES.txt'
+[1.028s] writing manifest file '../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info/SOURCES.txt'
+[1.028s] running build
+[1.028s] running build_py
+[1.028s] creating /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build
+[1.028s] creating /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build/lib
+[1.028s] creating /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build/lib/pacote8_publisher_voz
+[1.028s] copying pacote8_publisher_voz/__init__.py -> /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build/lib/pacote8_publisher_voz
+[1.028s] copying pacote8_publisher_voz/speech_synthesis_publisher_node.py -> /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build/lib/pacote8_publisher_voz
+[1.029s] running install
+[1.033s] running install_lib
+[1.051s] creating /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/python3.12/site-packages/pacote8_publisher_voz
+[1.051s] copying /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build/lib/pacote8_publisher_voz/__init__.py -> /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/python3.12/site-packages/pacote8_publisher_voz
+[1.051s] copying /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build/lib/pacote8_publisher_voz/speech_synthesis_publisher_node.py -> /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/python3.12/site-packages/pacote8_publisher_voz
+[1.051s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/python3.12/site-packages/pacote8_publisher_voz/__init__.py to __init__.cpython-312.pyc
+[1.052s] byte-compiling /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/python3.12/site-packages/pacote8_publisher_voz/speech_synthesis_publisher_node.py to speech_synthesis_publisher_node.cpython-312.pyc
+[1.053s] running install_data
+[1.053s] creating /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/share/ament_index
+[1.053s] creating /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/share/ament_index/resource_index
+[1.053s] creating /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/share/ament_index/resource_index/packages
+[1.053s] copying resource/pacote8_publisher_voz -> /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/share/ament_index/resource_index/packages
+[1.053s] copying package.xml -> /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/share/pacote8_publisher_voz
+[1.053s] running install_egg_info
+[1.071s] Copying ../../build/pacote8_publisher_voz/pacote8_publisher_voz.egg-info to /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/python3.12/site-packages/pacote8_publisher_voz-0.0.0-py3.12.egg-info
+[1.072s] running install_scripts
+[1.188s] Installing speech_synthesis_publisher script to /home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/pacote8_publisher_voz
+[1.188s] writing list of installed files to '/home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/install.log'
+[1.215s] Invoked command in '/home/saulo/ros2_servidor_ws/src/pacote8_publisher_voz' returned '0': AMENT_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/pacote8_publisher_voz/lib/python3.12/site-packages:/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pacote8_publisher_voz build --build-base /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/build install --record /home/saulo/ros2_servidor_ws/build/pacote8_publisher_voz/install.log --single-version-externally-managed install_data

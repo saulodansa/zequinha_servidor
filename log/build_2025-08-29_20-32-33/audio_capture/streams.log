@@ -1,0 +1,83 @@
+[0.008s] Invoking command in '/home/saulo/ros2_servidor_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/saulo/ros2_servidor_ws/src/audio_common/audio_capture -DCMAKE_INSTALL_PREFIX=/home/saulo/ros2_servidor_ws/install/audio_capture
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.104s] -- The CXX compiler identification is GNU 13.3.0
+[0.120s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.212s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.315s] -- Detecting CXX compiler ABI info - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.323s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.567s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.615s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.632s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.748s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.751s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.841s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.858s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.878s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.953s] -- Found rclcpp_components: 28.1.10 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.989s] -- Found audio_common_msgs: 0.3.12 (/home/saulo/ros2_servidor_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[1.020s] -- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[1.051s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.052s] -- Checking for module 'gstreamer-1.0'
+[1.068s] --   Found gstreamer-1.0, version 1.24.2
+[1.219s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+[1.293s] -- Configuring done (1.3s)
+[1.306s] -- Generating done (0.0s)
+[1.310s] -- Build files have been written to: /home/saulo/ros2_servidor_ws/build/audio_capture
+[1.320s] Invoked command in '/home/saulo/ros2_servidor_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/saulo/ros2_servidor_ws/src/audio_common/audio_capture -DCMAKE_INSTALL_PREFIX=/home/saulo/ros2_servidor_ws/install/audio_capture
+[1.322s] Invoking command in '/home/saulo/ros2_servidor_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saulo/ros2_servidor_ws/build/audio_capture -- -j16 -l16
+[1.372s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture_node.cpp.o[0m
+[1.372s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_capture_node.dir/rclcpp_components/node_main_audio_capture_node.cpp.o[0m
+[3.878s] [ 75%] [32m[1mLinking CXX executable audio_capture_node[0m
+[3.981s] [ 75%] Built target audio_capture_node
+[4.342s] [01m[K/home/saulo/ros2_servidor_ws/src/audio_common/audio_capture/src/audio_capture_node.cpp:[m[K In static member function ‘[01m[Kstatic gboolean audio_capture::AudioCaptureNode::[01;32m[KonMessage[m[K(GstBus*, GstMessage*, gpointer)[m[K’:
+[4.343s] [01m[K/home/saulo/ros2_servidor_ws/src/audio_common/audio_capture/src/audio_capture_node.cpp:258:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.343s]   258 |       static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+[4.343s]       |                                  [01;35m[K~~~~~~~~^~~[m[K
+[7.885s] [100%] [32m[1mLinking CXX shared library libaudio_capture.so[0m
+[8.087s] [100%] Built target audio_capture
+[8.097s] Invoked command in '/home/saulo/ros2_servidor_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saulo/ros2_servidor_ws/build/audio_capture -- -j16 -l16
+[8.098s] Invoking command in '/home/saulo/ros2_servidor_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saulo/ros2_servidor_ws/build/audio_capture
+[8.106s] -- Install configuration: ""
+[8.106s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/lib/audio_capture/audio_capture_node
+[8.106s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_capture/lib/audio_capture/audio_capture_node" to ""
+[8.106s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/bin/audio_capture_node
+[8.107s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_capture/bin/audio_capture_node" to ""
+[8.107s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/lib/libaudio_capture.so
+[8.110s] -- Set non-toolchain portion of runtime path of "/home/saulo/ros2_servidor_ws/install/audio_capture/lib/libaudio_capture.so" to ""
+[8.110s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/launch
+[8.110s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.xml
+[8.110s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/launch/capture_wave.launch.py
+[8.110s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/launch/capture.launch.py
+[8.110s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/launch/capture_wave.launch.xml
+[8.110s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.py
+[8.110s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/launch/capture.launch.xml
+[8.111s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/environment/library_path.sh
+[8.111s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/environment/library_path.dsv
+[8.111s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/ament_index/resource_index/package_run_dependencies/audio_capture
+[8.111s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/ament_index/resource_index/parent_prefix_path/audio_capture
+[8.111s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.sh
+[8.111s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.dsv
+[8.111s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/environment/path.sh
+[8.112s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/environment/path.dsv
+[8.112s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/local_setup.bash
+[8.112s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/local_setup.sh
+[8.112s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/local_setup.zsh
+[8.112s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/local_setup.dsv
+[8.112s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/package.dsv
+[8.112s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/ament_index/resource_index/packages/audio_capture
+[8.113s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/ament_index/resource_index/rclcpp_components/audio_capture
+[8.113s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/cmake/ament_cmake_export_libraries-extras.cmake
+[8.113s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig.cmake
+[8.113s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig-version.cmake
+[8.113s] -- Installing: /home/saulo/ros2_servidor_ws/install/audio_capture/share/audio_capture/package.xml
+[8.115s] Invoked command in '/home/saulo/ros2_servidor_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saulo/ros2_servidor_ws/install/audio_common_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saulo/ros2_servidor_ws/build/audio_capture

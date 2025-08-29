@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-80b407c1b89c2e256984.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "audio_capture",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_capture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_capture-a8d01a212bb0b75b353b.json",
+					"name" : "audio_capture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_capture_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_capture_node-e9879e97351b85f2edd1.json",
+					"name" : "audio_capture_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_capture_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_capture_uninstall-4268ce78c4e2f8caa9a4.json",
+					"name" : "audio_capture_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4712918addb44afe1193.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/saulo/ros2_servidor_ws/build/audio_capture",
+		"source" : "/home/saulo/ros2_servidor_ws/src/audio_common/audio_capture"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

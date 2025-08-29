@@ -1,0 +1,34 @@
+[1.319s] Invoking command in '/home/saulo/ros2_servidor_ws/src/robot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saulo/ros2_servidor_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/saulo/ros2_servidor_ws/build/robot_bringup/build install --record /home/saulo/ros2_servidor_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
+[1.550s] running egg_info
+[1.550s] creating ../../build/robot_bringup/robot_bringup.egg-info
+[1.567s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[1.567s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[1.567s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[1.567s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[1.568s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[1.605s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[1.606s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[1.606s] running build
+[1.606s] running build_py
+[1.606s] creating /home/saulo/ros2_servidor_ws/build/robot_bringup/build
+[1.606s] creating /home/saulo/ros2_servidor_ws/build/robot_bringup/build/lib
+[1.606s] creating /home/saulo/ros2_servidor_ws/build/robot_bringup/build/lib/robot_bringup
+[1.606s] copying robot_bringup/__init__.py -> /home/saulo/ros2_servidor_ws/build/robot_bringup/build/lib/robot_bringup
+[1.607s] running install
+[1.611s] running install_lib
+[1.629s] creating /home/saulo/ros2_servidor_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup
+[1.629s] copying /home/saulo/ros2_servidor_ws/build/robot_bringup/build/lib/robot_bringup/__init__.py -> /home/saulo/ros2_servidor_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup
+[1.629s] byte-compiling /home/saulo/ros2_servidor_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup/__init__.py to __init__.cpython-312.pyc
+[1.629s] running install_data
+[1.630s] creating /home/saulo/ros2_servidor_ws/install/robot_bringup/share/ament_index
+[1.630s] creating /home/saulo/ros2_servidor_ws/install/robot_bringup/share/ament_index/resource_index
+[1.630s] creating /home/saulo/ros2_servidor_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[1.630s] copying resource/robot_bringup -> /home/saulo/ros2_servidor_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[1.630s] copying package.xml -> /home/saulo/ros2_servidor_ws/install/robot_bringup/share/robot_bringup
+[1.630s] creating /home/saulo/ros2_servidor_ws/install/robot_bringup/share/robot_bringup/launch
+[1.630s] copying launch/start_robot_chatgpt.launch.py -> /home/saulo/ros2_servidor_ws/install/robot_bringup/share/robot_bringup/launch
+[1.630s] running install_egg_info
+[1.649s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/saulo/ros2_servidor_ws/install/robot_bringup/lib/python3.12/site-packages/robot_bringup-0.0.0-py3.12.egg-info
+[1.649s] running install_scripts
+[1.767s] writing list of installed files to '/home/saulo/ros2_servidor_ws/build/robot_bringup/install.log'
+[1.798s] Invoked command in '/home/saulo/ros2_servidor_ws/src/robot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saulo/ros2_servidor_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saulo/ros2_servidor_ws/install/robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/saulo/ros2_servidor_ws/build/robot_bringup/build install --record /home/saulo/ros2_servidor_ws/build/robot_bringup/install.log --single-version-externally-managed install_data

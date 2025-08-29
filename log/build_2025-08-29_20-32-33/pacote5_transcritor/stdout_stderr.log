@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/pacote5_transcritor/pacote5_transcritor.egg-info
+writing ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/PKG-INFO
+writing dependency_links to ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/dependency_links.txt
+writing entry points to ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/entry_points.txt
+writing requirements to ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/requires.txt
+writing top-level names to ../../build/pacote5_transcritor/pacote5_transcritor.egg-info/top_level.txt
+writing manifest file '../../build/pacote5_transcritor/pacote5_transcritor.egg-info/SOURCES.txt'
+reading manifest file '../../build/pacote5_transcritor/pacote5_transcritor.egg-info/SOURCES.txt'
+writing manifest file '../../build/pacote5_transcritor/pacote5_transcritor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build
+creating /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib
+creating /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor
+copying pacote5_transcritor/google_transcriber_node.py -> /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor
+copying pacote5_transcritor/__init__.py -> /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor
+running install
+running install_lib
+creating /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor
+copying /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor/google_transcriber_node.py -> /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor
+copying /home/saulo/ros2_servidor_ws/build/pacote5_transcritor/build/lib/pacote5_transcritor/__init__.py -> /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor
+byte-compiling /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor/google_transcriber_node.py to google_transcriber_node.cpython-312.pyc
+byte-compiling /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/ament_index
+creating /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/ament_index/resource_index
+creating /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/ament_index/resource_index/packages
+copying resource/pacote5_transcritor -> /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/ament_index/resource_index/packages
+copying package.xml -> /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/share/pacote5_transcritor
+running install_egg_info
+Copying ../../build/pacote5_transcritor/pacote5_transcritor.egg-info to /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/python3.12/site-packages/pacote5_transcritor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing transcriber_node script to /home/saulo/ros2_servidor_ws/install/pacote5_transcritor/lib/pacote5_transcritor
+writing list of installed files to '/home/saulo/ros2_servidor_ws/build/pacote5_transcritor/install.log'

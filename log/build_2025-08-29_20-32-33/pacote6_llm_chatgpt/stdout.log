@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info
+writing ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/PKG-INFO
+writing dependency_links to ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/dependency_links.txt
+writing entry points to ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/entry_points.txt
+writing requirements to ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/requires.txt
+writing top-level names to ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/top_level.txt
+writing manifest file '../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/SOURCES.txt'
+reading manifest file '../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/SOURCES.txt'
+writing manifest file '../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build
+creating /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib
+creating /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+copying pacote6_llm_chatgpt/llm_manager.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+copying pacote6_llm_chatgpt/__init__.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+copying pacote6_llm_chatgpt/llm_server_node.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+copying pacote6_llm_chatgpt/assistente_chatgpt_node.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+copying pacote6_llm_chatgpt/personalidade_robo.py -> /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt
+running install
+running install_lib
+creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/llm_manager.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/__init__.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/llm_server_node.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/assistente_chatgpt_node.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+copying /home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/build/lib/pacote6_llm_chatgpt/personalidade_robo.py -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt
+byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/llm_manager.py to llm_manager.cpython-312.pyc
+byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/llm_server_node.py to llm_server_node.cpython-312.pyc
+byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/assistente_chatgpt_node.py to assistente_chatgpt_node.cpython-312.pyc
+byte-compiling /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt/personalidade_robo.py to personalidade_robo.cpython-312.pyc
+running install_data
+creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/ament_index
+creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/ament_index/resource_index
+creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/ament_index/resource_index/packages
+copying resource/pacote6_llm_chatgpt -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/ament_index/resource_index/packages
+copying package.xml -> /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/pacote6_llm_chatgpt
+creating /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/share/pacote6_llm_chatgpt/models
+running install_egg_info
+Copying ../../build/pacote6_llm_chatgpt/pacote6_llm_chatgpt.egg-info to /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/python3.12/site-packages/pacote6_llm_chatgpt-0.0.0-py3.12.egg-info
+running install_scripts
+Installing assistente_chatgpt script to /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/pacote6_llm_chatgpt
+Installing llm_server script to /home/saulo/ros2_servidor_ws/install/pacote6_llm_chatgpt/lib/pacote6_llm_chatgpt
+writing list of installed files to '/home/saulo/ros2_servidor_ws/build/pacote6_llm_chatgpt/install.log'
